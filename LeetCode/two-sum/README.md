@@ -35,9 +35,15 @@ Follow-up: Can you come up with an algorithm that is less than O(n2) time com
 ## Statistics
 ### Golang
 ```
-./two_sum  0.00s user 0.00s system 60% cpu 0.013 total
-./two_sum  0.00s user 0.00s system 65% cpu 0.010 total
-./two_sum  0.00s user 0.00s system 62% cpu 0.008 total
-./two_sum  0.00s user 0.00s system 66% cpu 0.009 total
-./two_sum  0.00s user 0.00s system 71% cpu 0.008 total
+for i in {1..10}; do time ./two_sum; sleep 2; done
+./two_sum  0.01s user 0.01s system 69% cpu 0.017 total
+./two_sum  0.01s user 0.00s system 67% cpu 0.016 total
+./two_sum  0.00s user 0.01s system 61% cpu 0.017 total
+./two_sum  0.01s user 0.01s system 67% cpu 0.015 total
+./two_sum  0.01s user 0.01s system 73% cpu 0.016 total
+./two_sum  0.01s user 0.01s system 77% cpu 0.027 total
+./two_sum  0.01s user 0.01s system 75% cpu 0.019 total
+./two_sum  0.01s user 0.01s system 77% cpu 0.014 total
+./two_sum  0.01s user 0.01s system 75% cpu 0.018 total
+./two_sum  0.00s user 0.01s system 64% cpu 0.016 total
 ```
