@@ -47,3 +47,18 @@ for i in {1..10}; do time ./two_sum; sleep 2; done
 ./two_sum  0.01s user 0.01s system 75% cpu 0.018 total
 ./two_sum  0.00s user 0.01s system 64% cpu 0.016 total
 ```
+
+### Python
+```
+for i in {1..10}; do time python3 two_sum.py; sleep 2; done
+python3 two_sum.py  0.03s user 0.01s system 90% cpu 0.047 total
+python3 two_sum.py  0.03s user 0.01s system 87% cpu 0.054 total
+python3 two_sum.py  0.03s user 0.01s system 89% cpu 0.046 total
+python3 two_sum.py  0.03s user 0.01s system 89% cpu 0.047 total
+python3 two_sum.py  0.03s user 0.01s system 89% cpu 0.046 total
+python3 two_sum.py  0.03s user 0.01s system 89% cpu 0.046 total
+python3 two_sum.py  0.03s user 0.01s system 90% cpu 0.047 total
+python3 two_sum.py  0.03s user 0.01s system 89% cpu 0.047 total
+python3 two_sum.py  0.03s user 0.01s system 89% cpu 0.047 total
+python3 two_sum.py  0.03s user 0.01s system 89% cpu 0.046 total
+```
